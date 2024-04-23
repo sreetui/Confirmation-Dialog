@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Confirmation Modal</title>
+</head>
+
+<body>
+  <div data-component="confirm-btn">
+    <button class="btn btn-primary confirm-btn pos-mid">Click to confirm</button>
+  </div>
+  <template data-template-for="modal-dialog">
+    <div class="modal-dialog-container">
+      <div class="modal">
+        <button class="modal-close">&times;</button>
+        <div class="modal-header">
+          Confirmation Dialog
+        </div>
+        <div class="modal-body">
+          <p class="modal-text">
+            Agreement confimation.
+            <br />
+            <br />
+            Please click Ok to confirm!
+          </p>
+          <button class="btn btn-secondary modal-ok">Ok</button>
+        </div>
+      </div>
+    </div>
+  </template>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
