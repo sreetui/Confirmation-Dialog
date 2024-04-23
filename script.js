@@ -3,8 +3,7 @@
 class ModalDialog {
   constructor() {
     this.toggle = false;
-    this.templateSelector = "[data-template-for='modal-dialog']";
-    this.modalContainer = document.querySelector(this.templateSelector);
+    this.modalContainer = document.querySelector("[data-template-for='modal-dialog']");
     this.addListeners();
   }
   render() {
