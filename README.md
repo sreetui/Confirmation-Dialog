@@ -1,2 +1,3 @@
 # confirmation-dialog
-Simple Confirmation Modal Dialog Window
+Simple confimation modal dailog window implemented by using plain HTML, CSS, JavaScript.
+
