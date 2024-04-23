@@ -44,4 +44,4 @@ class ModalDialog {
     this.render();
   }
 }
-const modalDialog = new ModalDialog()
+const modalDialog = new ModalDialog();
