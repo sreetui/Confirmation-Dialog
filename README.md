@@ -1,4 +1,4 @@
-![image](https://github.com/sreetui/confirmation-dialog/assets/165521605/9a3ef14c-d995-4a4a-9f89-bbcfa89efa04)# confirmation-dialog
+# confirmation-dialog
 Simple confimation modal dailog window implemented by using plain HTML, CSS, JavaScript.
 
 Implementation uses template approach. Modal Dialog template does not render by default. 
