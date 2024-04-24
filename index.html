@@ -14,20 +14,20 @@
     <button class="btn btn-primary confirm-btn pos-mid">Click to confirm</button>
   </div>
   <template data-template-for="modal-dialog">
-    <div class="modal-dialog-container">
+    <div class="modal-dialog-container" aria-description="Modal Dialog Container" role="dialog">
       <div class="modal">
-        <button class="modal-close">&times;</button>
-        <div class="modal-header">
+        <button class="modal-close" aria-description="Close Modal Dialog Button">&times;</button>
+        <div class="modal-header" aria-description="Modal Dialog Header">
           Confirmation Dialog
         </div>
-        <div class="modal-body">
+        <div class="modal-body" aria-description="Modal Dialog Body">
           <p class="modal-text">
             Agreement confimation.
             <br />
             <br />
             Please click Ok to confirm!
           </p>
-          <button class="btn btn-secondary modal-ok">Ok</button>
+          <button class="btn btn-secondary modal-ok" aria-description="Ok Modal Dialog Button">Ok</button>
         </div>
       </div>
     </div>
